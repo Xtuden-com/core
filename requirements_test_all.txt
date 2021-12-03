@@ -161,7 +161,7 @@ androidtv[async]==0.0.54
 apns2==0.3.0
 
 # homeassistant.components.apprise
-apprise==0.8.9
+apprise==0.9.5.1
 
 # homeassistant.components.aprs
 aprslib==0.6.46
@@ -410,7 +410,7 @@ homematicip==0.12.1
 
 # homeassistant.components.google
 # homeassistant.components.remember_the_milk
-httplib2==0.10.3
+httplib2==0.19.0
 
 # homeassistant.components.huawei_lte
 huawei-lte-api==1.4.12
@@ -551,7 +551,7 @@ pilight==0.1.1
 # homeassistant.components.seven_segments
 # homeassistant.components.sighthound
 # homeassistant.components.tensorflow
-pillow==7.2.0
+pillow==8.3.2
 
 # homeassistant.components.plex
 plexapi==4.2.0
@@ -1137,7 +1137,9 @@ zigpy-xbee==0.13.0
 zigpy-zigate==0.7.2
 
 # homeassistant.components.zha
-zigpy-znp==0.2.2
+zigpy-znp==0.3.0
 
 # homeassistant.components.zha
 zigpy==0.27.0
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
+websockets>=10.0 # not directly required, pinned by Snyk to avoid a vulnerability
