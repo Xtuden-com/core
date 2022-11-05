@@ -551,7 +551,7 @@ pilight==0.1.1
 # homeassistant.components.seven_segments
 # homeassistant.components.sighthound
 # homeassistant.components.tensorflow
-pillow==7.2.0
+pillow==9.0.1
 
 # homeassistant.components.plex
 plexapi==4.2.0
@@ -1137,7 +1137,9 @@ zigpy-xbee==0.13.0
 zigpy-zigate==0.7.2
 
 # homeassistant.components.zha
-zigpy-znp==0.2.2
+zigpy-znp==0.3.0
 
 # homeassistant.components.zha
 zigpy==0.27.0
+protobuf>=3.18.3 # not directly required, pinned by Snyk to avoid a vulnerability
+websockets>=10.0 # not directly required, pinned by Snyk to avoid a vulnerability
