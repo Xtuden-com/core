@@ -502,7 +502,7 @@ numato-gpio==0.8.0
 # homeassistant.components.opencv
 # homeassistant.components.tensorflow
 # homeassistant.components.trend
-numpy==1.19.2
+numpy==1.22.2
 
 # homeassistant.components.google
 oauth2client==4.0.0
@@ -1141,3 +1141,4 @@ zigpy-znp==0.2.2
 
 # homeassistant.components.zha
 zigpy==0.27.0
+httpx>=0.23.0 # not directly required, pinned by Snyk to avoid a vulnerability
