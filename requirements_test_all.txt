@@ -1110,7 +1110,7 @@ xbox-webapi==2.0.8
 # homeassistant.components.startca
 # homeassistant.components.ted5000
 # homeassistant.components.zestimate
-xmltodict==0.12.0
+xmltodict==0.15.0
 
 # homeassistant.components.yeelight
 yeelight==0.5.4
